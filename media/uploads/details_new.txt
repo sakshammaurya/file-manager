@@ -1,0 +1,57 @@
+I need data scraping scripts for below sites need the following datapoints scraped 
+
+1-domain name
+2-page name
+3-link
+4- Full page contents
+
+Example for wikipedia what to scraped 
+
+Domain Name: en.wikipedia.org
+Page Name: Web scraping
+Link: https://en.wikipedia.org/wiki/Web_scraping
+
+Full Page Contents:
+
+Web scraping is the process of extracting data from websites. This data is typically extracted and stored in a local file or a database. Web scraping is commonly used in data analysis, data mining, and competitive analysis. Some common methods used in web scraping include HTTP requests and parsing HTML content, along with using APIs if available.
+
+== History ==
+The origins of web scraping can be traced back to the early days of the internet when individuals would manually collect data from websites. With the evolution of the web, scraping tools and technologies evolved as well, allowing for more efficient and automated scraping of large amounts of data. Over time, the practice of web scraping gained more attention from legal and ethical perspectives.
+
+== Techniques ==
+Web scraping is generally performed in one of two ways: 
+1. *Using an API*: Many websites offer APIs (Application Programming Interfaces) that allow users to access their data in a structured format, making it easier to extract information without scraping HTML pages.
+2. *Parsing HTML*: In cases where APIs are unavailable, web scraping is done by directly parsing the HTML of web pages to extract the desired data. Popular libraries such as BeautifulSoup (Python) and Cheerio (JavaScript) are commonly used for parsing HTML.
+
+== Tools ==
+Some of the most popular tools used in web scraping include:
+* *BeautifulSoup* – A Python library for parsing HTML and XML documents.
+* *Scrapy* – An open-source web crawling framework written in Python.
+* *Selenium* – A browser automation tool often used for scraping JavaScript-heavy websites.
+* *Octoparse* – A no-code web scraping tool that allows users to extract data from websites visually.
+
+== Legal and Ethical Issues ==
+While web scraping can be a valuable tool, it raises concerns related to legal and ethical issues. These include:
+- Violations of *robots.txt*: Websites use the robots.txt file to control which pages can be scraped. Ignoring this file may lead to legal consequences.
+- Data Ownership: Extracting data from websites without permission may infringe on intellectual property rights.
+- Overloading Servers: Excessive scraping of a website’s pages can overload the servers, causing potential performance issues or denial of service.
+
+== Conclusion ==
+Web scraping has proven to be a valuable technique in various fields such as research, data analysis, and business intelligence. However, it’s important for users to be aware of the legal and ethical boundaries involved in web scraping and to use the techniques responsibly.
+
+1.	Wikipedia – wikipedia.org (~55 million pages)
+2.	Project Gutenberg – gutenberg.org (~60,000 pages/books)
+3.	Common Crawl – commoncrawl.org (~2.7 billion pages)
+4.	arXiv – arxiv.org (~2 million pages/papers)
+5.	PubMed Central – ncbi.nlm.nih.gov/pmc (~5.2 million pages/articles)
+6.	Internet Archive – archive.org (Billions of pages/files)
+7.	Wikibooks – wikibooks.org (~400,000 pages/books)
+8.	Wikisource – wikisource.org (~6 million pages/texts)
+9.	MDN Web Docs – developer.mozilla.org (~100,000 pages)
+10.	govinfo.gov – govinfo.gov (~2 million pages/documents)
+11.	Legislation.gov.uk – legislation.gov.uk (~1 million pages/documentsf)
+12.	GitHub Repositories – Most content is open source, but licenses vary.
+13.	Stack Overflow – Free under CC BY-SA, but commercial use restrictions apply.
+14.	Semantic Scholar – Free for research, API available for non-commercial use.
+15.	Reddit – Free for personal use but API has restrictions on scraping.
+16.	Quora – Limited free access, scraping generally not allowed.
